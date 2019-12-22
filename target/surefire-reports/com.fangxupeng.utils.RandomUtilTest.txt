@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: com.fangxupeng.utils.RandomUtilTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
+com.fangxupeng.utils.RandomUtilTest.testRandomCharacter()  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.fangxupeng.utils.RandomUtilTest.testRandomCharacter(RandomUtilTest.java:21)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 19 more
+
+com.fangxupeng.utils.RandomUtilTest.testSubRandom()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.fangxupeng.utils.RandomUtilTest.testSubRandom(RandomUtilTest.java:16)
+
+com.fangxupeng.utils.RandomUtilTest.testRandomString()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.fangxupeng.utils.RandomUtilTest.testRandomString(RandomUtilTest.java:26)
+
+com.fangxupeng.utils.RandomUtilTest.testRandom()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.fangxupeng.utils.RandomUtilTest.testRandom(RandomUtilTest.java:11)
+

@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: com.fangxupeng.utils.UtilTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+com.fangxupeng.utils.UtilTest.testIsNumber()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.fangxupeng.utils.UtilTest.testIsNumber(UtilTest.java:11)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 19 more
+
+com.fangxupeng.utils.UtilTest.testGetAge()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.fangxupeng.utils.UtilTest.testGetAge(UtilTest.java:16)
+
+com.fangxupeng.utils.UtilTest.testGetMonthInit()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.fangxupeng.utils.UtilTest.testGetMonthInit(UtilTest.java:26)
+
+com.fangxupeng.utils.UtilTest.testGetMonthEnd()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.fangxupeng.utils.UtilTest.testGetMonthEnd(UtilTest.java:21)
+
+com.fangxupeng.utils.UtilTest.testRandom()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.fangxupeng.utils.UtilTest.testRandom(UtilTest.java:31)
+
